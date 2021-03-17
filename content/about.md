@@ -1,9 +1,9 @@
-+++
-title = "关于"
-description = "关于"
-keywords = "关于"
+---
+title : "关于"
+description : "关于"
+keywords : "关于"
 draft: true
-+++
+---
 
 ```text
 苟有恒，何必三更眠五更起；最无益，莫过一日曝十日寒。
