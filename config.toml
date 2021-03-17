@@ -1,6 +1,6 @@
 baseurl = "https://www.haha.run"
-title = "做一件长期的事"
-theme = "hugo-coder"
+title = "沧海一粟"
+theme = "anatole"
 languagecode = "zh-cn"
 defaultcontentlanguage = "zh-cn"
 
@@ -12,6 +12,28 @@ defaultcontentlanguage = "zh-cn"
 
 [params]
     author = "树上的男爵"
+    title = "沧海一粟"
+    #copyright = "2020-2021"
+    description = "Eternity is a very long time, especially towards the end."
+    profilePicture = "https://avatars.githubusercontent.com/u/1941688?s=460"
+    keywords = ""
+    favicon = "favicons/"
+    # example ["css/custom.css"]
+    customCss = []
+    # example ["js/custom.js"]
+    customJs = [] 
+    mainSections = ["post"]
+    images = ["images/site-feature-image.png"]
+    doNotLoadAnimations = false
+    # Form Spree Contact Form
+    #contactFormAction = "https://formspree.io/f/your-form-hash-here"
+    # Google Site Verify
+    #googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    # indexDateFormat = "Mon, Jan 2, 2006"
+    # listDateFormat = "Jan 2"
+    # singleDateFormat = "Mon, Jan 2, 2006"
+    # Commento Comments
+    # CommentoURL = "https://commento.example.com/js/commento.js"
 
 
 [menu]
