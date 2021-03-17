@@ -1,0 +1,29 @@
+baseurl = "https://www.haha.run"
+title = "做一件长期的事"
+theme = "hugo-coder"
+languagecode = "zh-cn"
+defaultcontentlanguage = "zh-cn"
+
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[params]
+    author = "树上的男爵"
+
+
+[menu]
+    [[menu.main]]
+        name = "关于"
+        weight = 1
+        url = "/about/"
+    [[menu.main]]
+        name = "学习"
+        weight = 2
+        url  = "/learn/"
+    [[menu.main]]
+        name = "技术"
+        weight = 3
+        url  = "/dev/"
