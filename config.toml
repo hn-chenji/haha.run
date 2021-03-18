@@ -15,7 +15,7 @@ defaultcontentlanguage = "zh-cn"
     #copyright = "2020-2021"
     description = "Eternity is a very long time, especially towards the end."
     profilePicture = "https://avatars.githubusercontent.com/u/1941688?s=460"
-    keywords = ""
+    keywords = "技术"
     favicon = "favicons/"
     # example ["css/custom.css"]
     customCss = []
