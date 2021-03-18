@@ -4,10 +4,6 @@ theme = "anatole"
 languagecode = "zh-cn"
 defaultcontentlanguage = "zh-cn"
 
-[context.production.environment]
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
-
 [taxonomies]
   category = "categories"
   tag = "tags"
