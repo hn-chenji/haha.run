@@ -7,6 +7,10 @@ summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
 
+
+[process.env]
+HUGO_ENVIRONMENT = "production"
+
 [taxonomies]
   category = "categories"
   tag = "tags"
