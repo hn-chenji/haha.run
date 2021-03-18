@@ -1,6 +1,6 @@
 baseURL = "https://www.haha.run"
 title = "沧海一粟"
-theme = "anatole"
+theme = "hugo-coder"
 languageCode = "zh-cn"
 DefaultContentLanguage = "zh-cn"
 summarylength = 10
