@@ -1,8 +1,11 @@
-baseurl = "https://www.haha.run"
+baseURL = "https://www.haha.run"
 title = "沧海一粟"
 theme = "anatole"
-languagecode = "zh-cn"
-defaultcontentlanguage = "zh-cn"
+languageCode = "zh-cn"
+DefaultContentLanguage = "zh-cn"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
 
 [taxonomies]
   category = "categories"
@@ -35,6 +38,48 @@ defaultcontentlanguage = "zh-cn"
     # CommentoURL = "https://commento.example.com/js/commento.js"
 
 
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+# Syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+
+[params.simpleAnalytics]
+# enable = true
+# customurl = "https://analytics.example.com"
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://de.linkedin.com/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/lxndrblz/anatole/"
+
+[[params.socialIcons]]
+icon = "fab fa-instagram"
+title = "instagram"
+url = "https://www.instagram.com/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:mail@example.com"
 [menu]
     [[menu.main]]
         name = "关于"
@@ -48,3 +93,8 @@ defaultcontentlanguage = "zh-cn"
         name = "技术"
         weight = 3
         url  = "/dev/"
+    [[menu.main]]
+        name = "Posts"
+        weight = 200
+        identifier = "posts"
+        url = "/post/"

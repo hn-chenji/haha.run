@@ -1,50 +1,25 @@
----
-title : "关于"
-description : "关于"
-keywords : "关于"
----
++++
+title = "About"
+description = "Hugo, the world's fastest framework for building websites"
+date = "2019-02-28"
+aliases = ["about-us", "about-hugo", "contact"]
+author = "Hugo Authors"
++++
 
-```text
-苟有恒，何必三更眠五更起；最无益，莫过一日曝十日寒。
-```
+Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 
+Hugo makes use of a variety of open source projects including:
 
-### 《末选之路》
+* https://github.com/yuin/goldmark
+* https://github.com/alecthomas/chroma
+* https://github.com/muesli/smartcrop
+* https://github.com/spf13/cobra
+* https://github.com/spf13/viper
 
----
+Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
 
-人的一生总是充满各种选择。
+Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
 
-就好像一条道路有无数个十字路口。
+Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
 
-站在路口上，人们总是犹疑不决。
-
-大家总想多思考一会儿。
-
-以便做出一个更加明智的选择。
-
-
-然而即便人们做出了选择。
-
-又常常在想。
-
-如果当初走向另外一条路。
-
-那又是怎样的人生、怎样的命运。
-
-
-可是人生从来没有十字路口。
-
-道路也从来只有一条。
-
-当我们直面当下选择的一切结果。
-
-我们将不再遗憾，不再后悔，不再彷徨。
-
-不念过往，不畏将来。
-
-永不退转，无比坚强。
-
-
----
-
+Learn more and contribute on [GitHub](https://github.com/gohugoio).
