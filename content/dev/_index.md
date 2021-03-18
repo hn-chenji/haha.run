@@ -2,6 +2,7 @@
 title: "技术"
 date: 2021-03-17T17:52:28+08:00
 draft: false
+tags: ["index"]
 ---
 
 
@@ -17,4 +18,4 @@ draft: false
 * redis
 
 ## 部署
-* [jekins](/dev/deploy/jekins)
+* [jenkins](/dev/jenkins/)
